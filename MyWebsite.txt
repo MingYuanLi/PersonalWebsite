@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<title>Tina Li</title>
+<style>
+
+body {
+    background-color: lightgrey;
+    <--!background: 
+    url("http://wallpaperfast.com/wp-content/uploads/2013/05/Calm-sea-breeze-notebook-background-images-Desktop-Wallpaper.jpg") 
+    no-repeat right top;-->
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: black;  
+    margin: 15px;
+    position: relative;
+    left: +30px; 
+}
+div {
+    position: relative;
+    left: +300px;
+    top: -260px;
+    width: +700px;
+    padding: 30px;
+    border: 1px white;
+    margin:  10px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    height:30px;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    top: +40px;
+    left: +150px;
+    margin: 2px;
+}
+a:hover {
+    background-color: grey;
+}
+a.none {
+    display: inline;
+    width: 0px;
+    height:0px;
+    color: blue;
+    text-decoration: underline;
+    text-align: none;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: lowercase;
+    background-color: lightgrey;
+    padding: 0px;
+    position: none;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<h1 style="background-color:black;color:white;text-align:center;padding:10px">Welcome</h1>
+<hr>
+
+<ul> 
+   <li><a href=""><b>About Me</b></a></li>
+   <li><a href=""><b>Resume</b></a></li>
+   <li><a href=""><b>References</b></a></li>
+   <li><a href=""><b>Projects</b></a></li>
+   <li><a href=""><b>Contact Me</b></a></li>
+</ul>
+
+
+<div>
+<img src="view.jpg" alt="Tina's Business Photo" style="width:200px; height:300px; float:left"> 
+
+<p title="About Myself">
+My name is Tina Li, a rising junior at 
+<a href="https://uwaterloo.ca/" class="none">the University of Waterloo</a>
+(Waterloo, Ontario) I am currently pursuing Honours Bachelor of Computing and Financial Management (BCFM), 
+a program offered jointly by <dfn>the David R. Cheriton School of Computer Science </dfn> and 
+<dfn>School of Accounting and Finance</dfn>.
+</p>
+
+<p title="Welcome"> 
+Welcome to my website and learn more about me.
+I am currently open to any job opportunities available. Please feel free to contact me at anytime 
+by phone 647-718-8093 or email at m329li@uwaterloo.ca.
+</p>
+</div>
+
+
+<hr>
+
+<address style="font-size: 80%; text-align: right">
+<b>Tina Li</b><br>
+<abbr>CFM</abbr> Junior Student<br>
+School of Accounting and Finance & <br> 
+Cheriton School of Computer Science<br>
+<br>
+University of Waterloo<br>
+200 University Avenue West<br> 
+Waterloo ON N2L 3G1<br>
+cfm.uwaterloo.ca
+<address>
+
+</body>
+</html>
